@@ -164,6 +164,8 @@ def evaluate(isAITurnNext):
         return 0
 
     #another player still needs to go
+
+    #simulate ai's next move
     if isAITurnNext:
         #maximize best score
         bestScore = -1000

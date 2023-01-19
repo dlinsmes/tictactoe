@@ -125,8 +125,7 @@ def ai_turn():
             if board[i][j] == "_":
 
                 #so winner() function can evaluate where piece is placed
-                moveRow = i
-                moveCol = j
+                moveRow, moveCol, piece = i, j, "o"
 
                 #simulate placing the piece to evaluate what happens
                 board[i][j] = "o"
